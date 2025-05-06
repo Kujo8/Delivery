@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    border: 2px solid #ff3b00;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 60px;
+    font-weight: bold;
+    color: #ff3b00;
+}
+
+.thank-you {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.order-number {
+    font-size: 100px;
+    font-weight: bold;
+    color: #ff3b00;
+    margin: 20px 0;
+}
+
+.instructions {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #ff3b00;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button-secondary {
+    background-color: #e0e0e0;
+    color: #333;
+}
